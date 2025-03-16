@@ -37,7 +37,7 @@ body {
 		text-decoration: none;
 	}
 	
-	.sidebar li a: hover{
+	.sidebar li a:hover{
 		text-decoration: underline; 
 	}
 	
@@ -46,3 +46,32 @@ body {
 		background-color: #4b4b4b;
 		padding: 20px;
 	}
+
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+	  }
+	  
+	  .sidebar h2 {
+		margin-bottom: 10px; /* Добавить небольшой отступ после заголовка */
+	  }
+	  
+	  .sidebar ul {
+		list-style-type: none; /* Убираем стандартные маркеры */
+		padding: 0;
+	  }
+	  
+	  .sidebar li {
+		margin-top: 5px; /* Отступ сверху для всех элементов списка */
+	  }
+	  
+	  .sidebar li:first-child {
+		margin-top: 0; /* Убираем отступ сверху для первого элемента */
+	  }
+	  
+	  .sidebar a {
+		text-decoration: none;
+		color: #000;
+	  }
+	  
+
